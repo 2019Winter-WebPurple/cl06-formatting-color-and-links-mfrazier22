@@ -1,0 +1,83 @@
+/*
+* Meredith Frazier
+* April 30, 2019
+* Classwork 05 - HTML Structure
+*/
+
+/* The universal selector */
+
+*{
+
+}
+
+/* Body properties here */
+
+body {
+
+    width: 99%; 
+    margin: 10px;
+    background: aliceblue; /* This is the background color of the entire page. */
+    color: black; /* This is the text color of the entire page. */
+    font-family:  "Courier New", courier, serif; /* These are the fonts that the web page will have, in order of availability. */
+    font-size: 15px; /* This is the default size of the font. */
+    
+}
+
+header {
+    
+    background: mistyrose; /* This is the background color of the header section. */
+}
+
+main {
+    
+    background: lightyellow; /* This is the background color of the main section. */
+}
+
+footer {
+    
+    background: lightgreen; /* This is the background color of the footer section. */
+}
+
+h1 {
+    
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline overline;
+    font-size: 225%;
+}
+
+/* This is the default link style before the page is visited. */
+a:link {
+    
+    color: deeppink;
+    text-decoration: none;
+}
+
+/* This is the default link style after the page is visited. */
+a:visited {
+    
+    color: darkorchid;
+    text-decoration: none;
+}
+
+/* This is the link style while the mouse is over the link. */
+a:hover, a:focus {
+    
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+/* This is the link style when the mouse is pressing on the link. */
+a:active {
+    
+    color:darkcyan;
+}
+
+
+#dachshund1 {width: 150px; height: 175px; float: left;}
+#minidach {width: 850px; height: 700px;} /* This is the size of the first (minidach) image. */
+
+    
+
